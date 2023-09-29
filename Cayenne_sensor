@@ -1,0 +1,12 @@
+// Variable to store the read value
+float temp,umid,pres;
+int ChannelPress = 0, ChannelUmid = 1, ChannelTemp = 2;
+
+#define LPP_TEMPERATURE         103  
+#define LPP_RELATIVE_HUMIDITY   104 
+#define LPP_BAROMETRIC_PRESSURE 115  
+
+
+#define LPP_TEMPERATURE_SIZE         4
+#define LPP_RELATIVE_HUMIDITY_SIZE   3
+#define LPP_BAROMETRIC_PRESSURE_SIZE 4
